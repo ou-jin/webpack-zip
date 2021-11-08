@@ -1,0 +1,24 @@
+{
+  "name": "webpack-zip",
+  "version": "1.0.6",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config rollup.config.js"
+  },
+  "exports": {
+    "require": "./bundle.js"
+  },
+  "author": "oujin",
+  "license": "ISC",
+  "keywords": [
+    "webpack",
+    "zip"
+  ],
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "compressing": "^1.5.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
